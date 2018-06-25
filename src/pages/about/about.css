@@ -1,0 +1,24 @@
+.circleImage{
+    /*height: 300px; */
+    /*width: auto;*/
+
+    /*position: absolute;
+
+    margin: auto;*/
+    border-radius: 50%;
+
+
+
+}
+
+.center{
+    width: 70%;
+}
+
+
+
+.crop{
+    /*height: 300px;
+    width: 300px;
+    overflow: hidden;   */
+}

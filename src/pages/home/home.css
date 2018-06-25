@@ -1,0 +1,111 @@
+body{
+	justify-content: center;
+}
+h2{
+	text-align: center;
+}
+img{
+	justify-content: center;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block; 
+}
+
+iframe{
+	align-content: center; 
+	display:block;
+	margin-left: auto; 
+	margin-right: auto;
+}
+.main-title .main-subheader{
+	text-align: center;
+}
+
+
+.jumbotron{
+	/*background-image: linear-gradient 
+	(rgba(20, 20, 20, .5),
+	 rgba(20, 20, 20, .5)),  
+	url('overhead-image.jpg');*/
+
+	/*background-image: url('overhead-image.jpg');*/
+	background: linear-gradient(rgba(20,20,20, .7), rgba(20,20,20, .7)),url('overhead-image.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 30%;
+	color: white;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+	/*display: flex;
+	justify-content: center; /* align horizontal */
+	/*align-items: center; /* align vertical */
+
+
+} 
+
+.thumbnail{
+	outline: none;
+	border: 0 none;
+
+}
+
+.btn {
+	font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	text-transform: uppercase;
+	border-radius: 0; 
+}
+  
+.btn-default {
+	color: #D40400;
+	border: 1px solid #D40400;
+	background-color: transparent; 
+}
+
+
+.btn-default2 {
+	color: white;
+	border: 1px solid #D40400;
+	outline: none;
+	background-color: #D40400;
+	border-radius: 5px;  
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+	max-width: 150px;  
+}
+
+.div-height{
+	min-height: 250px; 
+}
+
+.btn-default:focus, .btn-default:hover{
+	color: black;
+	border: 1px solid #D40400;
+	outline: none;
+	background-color: #D40400; 
+}
+
+.bg-gray{
+	background-color: #F1F1F1;
+}
+
+#dots{
+	padding-top: 20px;
+	padding-bottom: 20px; 
+	max-height: 200px;
+}
+
+.centerJumbo{
+	/*display: flex;
+	/*justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	
+}
